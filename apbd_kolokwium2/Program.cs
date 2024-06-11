@@ -1,13 +1,13 @@
+using apbd_kolokwium2.Data;
 using apbd_kolokwium2.Services;
 using Microsoft.EntityFrameworkCore;
-using AppContext = apbd_kolokwium2.Data.AppContext;
 
 var builder = WebApplication.CreateBuilder(args);
 
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 builder.Services.AddControllers();
-builder.Services.AddDbContext<AppContext>(options => 
+builder.Services.AddDbContext<DatabaseContext>(options => 
     options.UseSqlServer(builder.Configuration.GetConnectionString("Default")));
 builder.Services.AddScoped<IDbService, DbService>();
 

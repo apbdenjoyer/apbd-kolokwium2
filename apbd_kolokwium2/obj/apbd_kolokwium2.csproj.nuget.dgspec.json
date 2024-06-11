@@ -1,25 +1,27 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Francis\\Desktop\\apbd_kolokwium2\\apbd_kolokwium2\\apbd_kolokwium2.csproj": {}
+    "C:\\Users\\s27379\\RiderProjects\\apbd-kolokwium2\\apbd_kolokwium2\\apbd_kolokwium2.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Francis\\Desktop\\apbd_kolokwium2\\apbd_kolokwium2\\apbd_kolokwium2.csproj": {
+    "C:\\Users\\s27379\\RiderProjects\\apbd-kolokwium2\\apbd_kolokwium2\\apbd_kolokwium2.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Francis\\Desktop\\apbd_kolokwium2\\apbd_kolokwium2\\apbd_kolokwium2.csproj",
+        "projectUniqueName": "C:\\Users\\s27379\\RiderProjects\\apbd-kolokwium2\\apbd_kolokwium2\\apbd_kolokwium2.csproj",
         "projectName": "apbd_kolokwium2",
-        "projectPath": "C:\\Users\\Francis\\Desktop\\apbd_kolokwium2\\apbd_kolokwium2\\apbd_kolokwium2.csproj",
-        "packagesPath": "C:\\Users\\Francis\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Francis\\Desktop\\apbd_kolokwium2\\apbd_kolokwium2\\obj\\",
+        "projectPath": "C:\\Users\\s27379\\RiderProjects\\apbd-kolokwium2\\apbd_kolokwium2\\apbd_kolokwium2.csproj",
+        "packagesPath": "C:\\Users\\s27379\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\s27379\\RiderProjects\\apbd-kolokwium2\\apbd_kolokwium2\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Francis\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\s27379\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -32,6 +34,11 @@
           "warnAsError": [
             "NU1605"
           ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
         }
       },
       "frameworks": {
@@ -43,6 +50,12 @@
               "version": "[8.0.4, )"
             },
             "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[8.0.6, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
               "target": "Package",
               "version": "[8.0.6, )"
             },
@@ -86,7 +99,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.204/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.201/PortableRuntimeIdentifierGraph.json"
         }
       }
     }
